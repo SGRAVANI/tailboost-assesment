@@ -57,7 +57,7 @@ function AccountSetting() {
   return (
     <div>
       <p>Hello: {user ? user.name : "Guest"}</p>
-      <input type="text" placeholder='enter updated nick name' value={user.nickname} onChange={(e)=>{}}/>
+     
     </div>
   );
 }
